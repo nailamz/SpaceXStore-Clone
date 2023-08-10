@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.navItem {
+  padding-top: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.titlehero {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.products {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btnview {
+  font-family: 'Montserrat', sans-serif;
+}
+
+img {
+  object-fit: cover;
+  z-index: 1;
+  transition: transform 3s ease;
+  height: 100%;
+}
+
+.col-span-1 {
+  overflow: hidden;
+  position: relative;
+}
+
+.btn {
+  position: absolute;
+  z-index: 3; 
+  bottom: 100px;
+  left: 30px;
+  font-size: 20px;
+  background-color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.price {
+  font-family: 'Montserrat', sans-serif;
+}
